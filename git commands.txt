@@ -1,0 +1,23 @@
+git init 						-	to initialized
+git config --global user.name 'Mart Umbao'		-	to sign in for user name	
+git config --global user.email 'umbaomart@gmail.com'	-	to sign in for email
+git status 						- 	to see the status of the repo
+git add index.html		-	to add to the cached
+git rm --cached index.html	-	to remove from cached
+git add *.html			-	will al the .html extension name to the cached or ready to push
+git add .			- 	to add all the file to the cached
+git branch login		-	to create a branch 
+git checkout login		- 	to move to the branch
+git merge login			-	to merge it to the master branch
+git remote add origin https://github.com/umbaomart/practicegit.git	-	to get into the remote repository that you create
+git remote			-	to know if you are already in the repository. And to get ready for push
+git push -u origin master	-	to push it to the repository
+
+
+
+echo "# practicegit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/umbaomart/practicegit.git
+git push -u origin master
