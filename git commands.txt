@@ -21,3 +21,4 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/umbaomart/practicegit.git
 git push -u origin master
+After writing commit message, just press Esc Button and then write :wq or :wq! and then Enter to close the unix file.
